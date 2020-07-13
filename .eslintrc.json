@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "standard",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "quotes": [2, "double", "avoid-escape"],
+    "comma-dangle": ["error", "never"],
+    "semi": ["error", "always"]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
